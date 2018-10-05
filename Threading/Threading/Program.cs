@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ThreadingTuts
@@ -18,8 +19,10 @@ namespace ThreadingTuts
             //Console.WriteLine();
             //new TaskCancellation().Execute();
             //new TaskCancellation().ExecuteMultipleCancellation();
-            new ExceptionHandling().Execute();   
+            //new ExceptionHandling().Execute();   
+            new ConcurrentCollections().Execute();
             Console.ReadLine();
         }
     }
+        
 }
